@@ -1,0 +1,28 @@
+Mihu Florin
+324CC
+
+    Tema - POO
+
+    Tema a avut o dificultate potrivita pentru rezolvare, am alocat temei in 
+jur de 7 ore pe saptamana, timp de 3 saptamani, doua fiind cele din vacanta. 
+Enuntul temei a fost destul de lung si greu de urmarit.
+    La inceput, daca variabila GUI are valoarea 1, aplicatia cu interfata 
+grafica porneste, in caz contrar se executa actiunile din fisiere pentru 
+testul cu numarul din variabila testNo.
+    Se foloseste StringTokenizer pentru a delimita evenimentele din fiecare 
+fisier. Functiile loadCampaigns si loadUsers adauga in serviciu campaniile si 
+utilizatorii. Functia loadEvents executa fiecare eveniment scris si scrie in 
+fisierul de output, cu ajutorul obiectelor de tip FileWriter si PrintWriter. 
+    Prima fereastra a interfetei are scopul introducerii fisierului din care 
+se vor incarca datele campaniilor, cat si utilizatorii. Daca este introdus un 
+numar corect, se afiseaza ecranul de login. Dupa introducerea numelui si 
+parolei, in functie de tipul utilizatorului apar optiunile, sub forma de 
+butoane, pe care le poate executa. Un admin poate vedea campaniile, poate 
+adauga, edita sau anula campanii, toate avand o fereastra noua corespunzatoare.
+Daca se da click dreapta pe o campanie, se deschide alt meniu, in functie de 
+tipul utilizatorului, in care un admin poate vedea toate voucherele campaniei 
+respective, poate adauga sau marca ca folosite vouchere, pentru campania 
+respectiva. 
+    Introducerea gresita a datelor este tratata cu un mesaj de eroare 
+corespunzator. Elementele specifice AWT sau Swing au fost introduse din cod, 
+utilizand layout-ul GridBagLayout si constrangerile GridBagConstraints.
